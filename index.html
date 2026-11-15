@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang ="tr">
+
+<head>
+                <meta charset = "UTF-8">
+                <title> AI Study Assistant </title>
+                <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+                <div class="container"></div>
+                <h1>AI Study Assistant</h1>
+                <p>Akıllı ders çalışma platformuna hoş geldin.</p>
+
+                <div class ="upload-card">
+                                <h2>PDF Dosyanı Yükle</h2>
+
+                                <p>PDF dosyanı seç veya buraya sürükle.</p>
+                                
+                                <input type="file" id="pdfInput" accept=".pdf">
+
+                                <button onclick="uploadPDF()">PDF Yükle</button>
+
+                                <p id="status"></p>
+                </div>
+                </div>
+
+                <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/*Genel sayfa tasarımı */
+body{
+                font-family: Arial, sans-serif;
+                background-color: #f1f5f9;
+                margin: 0;
+                padding: 0;
+}
+
+/*Ana kapsayıcı*/
+.container{
+                text-align: center;
+                padding: 60px 20px;
+}
+
+
+/*Ana başlık*/
+h1{
+                color: #25c3eb;
+                font-size: 36px;
+}
+
+/*Açıklama yazısı*/
+.container  > p {
+                color: #64748b;
+                font-size: 18px;
+}
+
+/*PDF yükleme kartı*/
+.upload-card{
+                background-color: white;
+                width: 450px;
+                max-width: calc(100% - 60px);
+                margin: 40px auto;
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+                box-sizing: border-box;
+}
+
+/*Kart başlığı*/
+.upload-card h2{
+                color: #1e293b;
+}
+
+/*Kart açıklaması*/
+.upload-card p {
+                color: #64748b;
+}
+
+/*Buton tasarımı*/
+button{
+                background-color: #25c3eb;
+                color: white;
+                border: none;
+                padding: 12px 25px;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-top: 15px;
+                transition: 0.3s;
+}
+
+/*Fare butonun üzerine geldiğinde*/
+button:hover {
+                background-color: #1d4ed8;
+                transform: scale(1.10);
+}
+
+.drop-area{
+                border: 2px dashed #1d4ed8;
+                border-color:#1d4ed8;
+                padding: 25px;
+                border-radius: 15px;
+                background-color:#eff6ff;
+                transition: 0.3s;
+}
+
+.drop-area:hover{
+                background-color: #dbeafe;
+                transform: scale(1.02);
+}
